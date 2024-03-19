@@ -1,16 +1,14 @@
 def primeros_auxilios():
-    """
-    Función que simula una aplicación interactiva de primeros auxilios.
-    """
+    """Función que simula una aplicación interactiva de primeros auxilios"""
 
-    # Inicio de la aplicación
+    # Inicio de la aplicación de primeros auxilios
     print("**Aplicación de primeros auxilios**")
 
-    # Preguntar si la víctima está estimulada
+    # Preguntar si la víctima responde a estímulos
     estimulada = input("¿La víctima responde a estímulos? (Sí/No): ")
 
     # si estimulada es positivo:
-    if estimulada.lower() == "si":||
+    if estimulada.lower() == "si":
         print("Llevarlo al hospital más cercano")
     else:
         # Si la víctima no está estimulada, abrir la vía aérea
